@@ -302,6 +302,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "https://zhengsaishuo.github.io/2019/02/14/hello-world/",
+  owner: 'zhengsaishuo',
+  repo: 'zhengsaishuo.github.io',
+  oauth: {
+    client_id: '99ddc7dabf21809f3d83',
+    client_secret: 'ac43af2466315c932912cd6281e8df4b48b0abf3',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
